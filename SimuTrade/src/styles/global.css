@@ -1,0 +1,26 @@
+:root {
+    --color-dark-gray: #506670;
+    --color-mid-gray: #3E4E55;
+    --color-bright-green: #55C311;
+    --color-lime-green: #32CD32;
+    --color-light-green: #98FB98;
+    --color-light-salmon: #FFA07A;
+    --color-dodger-blue: #1E90FF;
+    --color-light-blue: #E4F4FB;
+    --color-navy: #1F287F;
+    --background-dark: #2D3E50;
+    --background-light: #4C6D80;
+    --text-light: #E4F4FB;
+    --text-dark: #000000;
+    --first-background: #2B3A42;
+    --second-background: #3E4E55
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--first-background);
+    color:var(--text-light); ;
+  }
+  

@@ -1,0 +1,81 @@
+.take-trade-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #2D3E50;
+    color: #FFF;
+  }
+  
+  .trade-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .stock-info {
+    font-size: 1.5em;
+  }
+  
+  .percentage {
+    color: #FF6F61;
+  }
+  
+  .trade-chart, .order-book, .trade-form {
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .chart-controls select {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  
+  .trade-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input {
+    width: 150px;
+  }
+  
+  .trade-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .trade-buttons button {
+    background-color: #55C311;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-book {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .order-book ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-book .supply h3, .order-book .demand h3 {
+    text-align: center;
+  }
+  

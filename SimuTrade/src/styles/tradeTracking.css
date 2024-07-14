@@ -1,0 +1,39 @@
+.trade-tracking {
+  background-color: #2b3a42;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.trade-tracking h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.trade-tracking ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trade-header, .trade-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e2d3a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.trade-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #4a6572;
+}
+
+.trade-item {
+  margin-bottom: 10px;
+}
+
+.trade-item span {
+  flex: 1;
+  text-align: center;
+}
